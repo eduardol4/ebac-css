@@ -1,9 +1,126 @@
-* {
-    box-sizing: border-box
-    margin: 0
+*{
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
 }
-h1 {color: green;}
-h2{color: green;}
-#economy h2{color: gold;}
-.creation-date{color: aqua;}
+
+body > header {
+    padding: 16px 0;
+    color: aliceblue;
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header ul a{
+    color: azure;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.container { width: 1366px; margin: 0 auto;}
+
+header {
+    li display: flex: ;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article article img{
+    /*height: 180px;*/
+    width: 100%;
+
+}
+.article article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, .article article {
+    margin-bottom: 16px;
+}
+
+.article article{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.article article a{
+    background-color: blue;
+    color: azure;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.article article a:hover{
+    text-decoration: underline;
+}
+
+.article article p,
+.article article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+#sports{
+    background-color: rgba(0,255,0, 0.1);
+}
+
+#sports .article article a{
+    background-color: rgba(0,255,0, 0.8);
+    color: black;
+}
+
+#economy {
+    background-color: #fffa65;
+}
+
+#economy .article article a{
+    background-color: #ff9f1a;
+}
+
+#fun{
+    background-color: rgba(25,78,96, 0.8);
+}
+
+#fun .article article a{
+    background-color: blue;
+}
+
+#tec{
+    background-color: rgb(100,0,32, 0.6);
+}
+
+#tec .article article a{
+    background-color: red;
+}
+
+.img-class {
+    height: 320px;
+    width: 320px;
+    object-fit: cover;
+}
